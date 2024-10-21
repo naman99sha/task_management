@@ -139,7 +139,7 @@ curl -X POST http://127.0.0.1:8000/api/tasks/1/assign/ \
 -H 'Content-Type: application/json' \
 -d '{"user_ids": [1, 2]}'
 ```
-*To create a user you can use the admin panel.*
+### *To create a user you can use the admin panel.*
 
 ## Unit tests
 Unit tests are available for models, views, and services to ensure the correctness of the application.
