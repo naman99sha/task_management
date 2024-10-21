@@ -15,7 +15,7 @@ class Task(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     task_type = models.CharField(max_length=50, blank=True)
     completed_at = models.DateTimeField(null=True, blank=True)
-    status = models.CharField(max_length=50, choices=TaskStatus.choices(), default=TaskStatus.pending)
+    status = models.CharField(max_length=50, choices=TaskStatus.choices(), default=TaskStatus.pending.value)
     assigned_users = models.ManyToManyField(User, related_name='tasks')
 
     def __str__(self):
