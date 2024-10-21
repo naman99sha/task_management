@@ -15,36 +15,27 @@ A task management system built using **Django** and **Django Rest Framework** (D
 
 ```bash
 task_management/
-├── manage.py
-├── task_management/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings/
-│   │   ├── base.py
-│   │   ├── development.py
-│   │   ├── production.py
-│   ├── urls.py
-│   └── wsgi.py
-├── tasks/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── migrations/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views/
-│   │   ├── task_views.py
-│   ├── urls.py
-│   ├── services/
-│   │   ├── task_service.py
-│   └── task_tests/
-│       ├── test_models.py
-│       ├── test_views.py
-│       ├── test_services.py
-├── docs/
-│   ├── README.md
-│   └── api_documentation.md
-└── .gitignore
+    ├── manage.py
+    ├── task_management/
+    │   ├── __init__.py
+    │   ├── asgi.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    └── tasks/
+        ├── __init__.py
+        ├── admin.py
+        ├── apps.py
+        ├── migrations/
+        │   └── __init__.py
+        ├── models.py
+        ├── serializers.py
+        ├── views.py
+        ├── urls.py
+        ├── tests/
+        │   ├── __init__.py
+        │   ├── test_models.py
+        │   ├── test_views.py
 ```
 
 # Prerequisites
