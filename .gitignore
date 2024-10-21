@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Local development environment
+.env
+*.env
+
+# Ignore virtual environment folder
+venv/
+env/
+
+# Ignore IDE-specific folders
+.vscode/
+.idea/
+
+# Ignore compiled files and packages
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Static files generated at runtime
+/static/
+*.static/
+media/
+
+# Migrations
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*
+
+# Tests
+tests/__pycache__/
+
+# Mac specific files
+.DS_Store
