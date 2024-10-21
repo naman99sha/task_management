@@ -55,7 +55,7 @@ Ensure that you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/django-task-management-api.git
+git clone https://github.com/naman99sha/task_management.git
 cd django-task-management-api
 ```
 
@@ -139,6 +139,7 @@ curl -X POST http://127.0.0.1:8000/api/tasks/1/assign/ \
 -H 'Content-Type: application/json' \
 -d '{"user_ids": [1, 2]}'
 ```
+*To create a user you can use the admin panel.*
 
 ## Unit tests
 Unit tests are available for models, views, and services to ensure the correctness of the application.
